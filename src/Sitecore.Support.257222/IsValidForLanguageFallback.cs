@@ -27,6 +27,7 @@ namespace Sitecore.Support.Pipelines.GetFieldValue
       return field.ID == FieldIDs.UIStaticItem;
     }
 
+    // Fix for oldlayout fields
     private bool IsOldLayout(Field field)
     {
       return field.ID == new ID("{E1D68787-D22B-4EA2-82B3-84C282E375EB}");
